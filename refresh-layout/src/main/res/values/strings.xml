@@ -1,3 +1,17 @@
 <resources>
-    <string name="app_name">refresh-layout</string>
+    <string name="app_name">RefreshLayout</string>
+
+    <string name="refresh_view_header_normal">下拉刷新</string>
+    <string name="refresh_view_header_ready">松开刷新</string>
+    <string name="refresh_view_header_loading">正在刷新</string>
+    <string name="refresh_view_header_finish">刷新成功</string>
+    <string name="refresh_view_header_fail">刷新失败</string>
+
+    <string name="refresh_view_footer_click">点击加载更多</string>
+    <string name="refresh_view_footer_normal">上拉加载更多</string>
+    <string name="refresh_view_footer_ready">松开加载更多</string>
+    <string name="refresh_view_footer_loading">正在加载</string>
+    <string name="refresh_view_footer_finish">加载成功</string>
+    <string name="refresh_view_footer_fail">加载失败</string>
+    <string name="refresh_view_footer_complete">已无更多数据</string>
 </resources>
