@@ -13,7 +13,7 @@ import android.widget.TextView;
 import androidx.annotation.Nullable;
 
 /**
- * SimpleRefreshLayout上拉加载view
+ * RefreshLayout上拉加载view
  */
 public class LoadView extends LinearLayout implements IFooterWrapper {
 

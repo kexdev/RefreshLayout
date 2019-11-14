@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="simple_refresh_icon">
+    <style name="refresh_icon">
         <item name="android:layout_width">20dp</item>
         <item name="android:layout_height">20dp</item>
     </style>
 
-    <style name="simple_refresh_text">
+    <style name="refresh_text">
         <item name="android:layout_marginLeft">5dp</item>
         <item name="android:layout_marginRight">5dp</item>
         <item name="android:textColor">@color/refresh_text_color</item>

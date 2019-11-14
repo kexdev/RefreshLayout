@@ -9,7 +9,7 @@ import android.widget.LinearLayout;
 import androidx.annotation.Nullable;
 
 /**
- * SimpleRefreshLayout无更多view
+ * RefreshLayout无更多view
  */
 public class BottomView extends LinearLayout implements IBottomWrapper {
 

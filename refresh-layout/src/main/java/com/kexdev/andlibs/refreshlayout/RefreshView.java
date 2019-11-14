@@ -13,7 +13,7 @@ import android.widget.TextView;
 import androidx.annotation.Nullable;
 
 /**
- * SimpleRefreshLayout下拉刷新view
+ * RefreshLayout下拉刷新view
  */
 public class RefreshView extends LinearLayout implements IHeaderWrapper {
 

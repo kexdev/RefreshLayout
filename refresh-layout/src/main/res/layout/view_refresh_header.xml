@@ -9,12 +9,12 @@
 
     <ImageView
         android:id="@+id/icon_image"
-        style="@style/simple_refresh_icon"
+        style="@style/refresh_icon"
         app:srcCompat="@drawable/ic_refresh_view_loading" />
 
     <TextView
         android:id="@+id/msg_text"
-        style="@style/simple_refresh_text"
+        style="@style/refresh_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/refresh_view_header_loading" />

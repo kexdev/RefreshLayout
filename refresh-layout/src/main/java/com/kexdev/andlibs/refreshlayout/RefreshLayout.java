@@ -81,7 +81,7 @@ public class RefreshLayout extends ViewGroup implements NestedScrollingParent, N
     private boolean mRefreshSuccess;
     private boolean mLoadSuccess;
 
-    private OnSimpleRefreshListener mRefreshListener;
+    private OnRefreshListener mRefreshListener;
 
     public RefreshLayout(Context context) {
         this(context, null);
@@ -690,7 +690,7 @@ public class RefreshLayout extends ViewGroup implements NestedScrollingParent, N
         updateStatus(State.PULL_UP_NORMAL);
     }
 
-    public void setOnSimpleRefreshListener(OnSimpleRefreshListener listener) {
+    public void setOnRefreshListener(OnRefreshListener listener) {
         this.mRefreshListener = listener;
     }
 
@@ -886,7 +886,7 @@ public class RefreshLayout extends ViewGroup implements NestedScrollingParent, N
     }
 
 
-    public interface OnSimpleRefreshListener {
+    public interface OnRefreshListener {
         void onRefresh();
 
         void onLoadMore();
