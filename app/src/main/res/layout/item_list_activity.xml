@@ -3,36 +3,26 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:padding="10dp"
+    android:layout_height="wrap_content"
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/text_view"
-        android:layout_width="wrap_content"
+        android:id="@+id/item_name"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="20dp"
-        android:text="查看示例"
+        android:textSize="15sp"
+        android:textColor="#444444"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/test_list_button"
+    <View
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="列表上拉下拉"
+        android:layout_height="0.5dp"
+        android:background="#efefef"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_view" />
-
-    <Button
-        android:id="@+id/test_webview_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="WebView上拉"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/test_list_button" />
+        app:layout_constraintTop_toBottomOf="@+id/item_name" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
