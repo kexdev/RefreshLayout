@@ -103,8 +103,7 @@ public class ListActivity extends AppCompatActivity {
                     } else {
                         //加载失败
                         mRefreshLayout.onRefreshComplete(false);
-                        mRefreshLayout.setPullDownEnable(true);
-                        mRefreshLayout.showNoMore(true);
+                        mRefreshLayout.setPullDownEnable(false);
                     }
                 }
             }
